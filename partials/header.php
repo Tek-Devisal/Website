@@ -30,12 +30,8 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Gp - v4.6.0
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- sweet alert -->
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 
 <body>
@@ -51,11 +47,11 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto active" href="index.php#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
+                    <li><a class="nav-link scrollto " href="index.php#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -78,7 +74,7 @@
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
 
-            <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+            <a href="book.php" class="get-started-btn scrollto">Book Apointment</a>
 
         </div>
     </header><!-- End Header -->
