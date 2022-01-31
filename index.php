@@ -248,7 +248,7 @@
         <h3>Book Us Now</h3>
         <p> Do you have a problem that needs Tech consultations? Do you need a project plan or flow chart? Do you need a
           mobile app? or Are you interested in any of our existing projects?</p>
-        <a class="cta-btn" href="#">Book Us Now</a>
+        <a class="cta-btn" href="book.php">Book Us Now</a>
       </div>
 
     </div>
