@@ -42,7 +42,7 @@
         <?php
             if($count > 0){
                foreach($result as $results){?>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" style="cursor: pointer;" onclick="location.href='product-details.php?p_id=<?= $results['id']?>'">
                   <div class="member" data-aos="fade-up" data-aos-delay="100">
                     <div class="member-img">
                       <img src="assets/img/shop/<?= fetchFirstShopImage($con, $results['id']);?>" style="height: 350px; width: 400px;object-fit:cover" class="img-fluid" alt="">
